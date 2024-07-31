@@ -1,0 +1,83 @@
+.job-discovery {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .job-discovery-header {
+    margin-bottom: 30px;
+  }
+  
+  .job-discovery-image {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .job-discovery-header h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .job-discovery-header p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .job-categories {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .job-category {
+    flex: 1;
+    min-width: 300px;
+    margin: 0 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .job-category h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .job-category p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .carousel-controls {
+    margin-top: 20px;
+  }
+  
+  .carousel-controls button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .carousel-controls button:hover {
+    background-color: #0056b3;
+  }
+  
+  .carousel-controls button:focus {
+    outline: none;
+  }
+  

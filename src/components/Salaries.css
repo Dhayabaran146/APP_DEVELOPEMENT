@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+.salaries-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.industry-select {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.industry-select label {
+    font-weight: 600;
+    color: #2c3e50;
+    max-width: 300px;
+}
+
+.industry-select select {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.job-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.job-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    width: calc(33.333% - 20px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.job-card:hover {
+    transform: scale(1.05);
+}
+
+.job-card h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.salary {
+    font-size: 1em;
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+.job-openings {
+    font-size: 0.9em;
+    color: #2980b9;
+    text-decoration: none;
+}
+
+.job-openings:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": "24e0",
+      "fullName": "asd",
+      "email": "22cse046@skcet.ac.in",
+      "password": "12345678",
+      "mobile": "09732947293",
+      "workStatus": "experienced"
+    },
+    {
+      "id": "9f6f",
+      "fullName": "d",
+      "email": "dhaya123@gmail.com",
+      "password": "sdfghjiko",
+      "mobile": "01234567890",
+      "workStatus": "experienced"
+    },
+    {
+      "id": "49bb",
+      "fullName": "gayathri",
+      "email": "gaya@gmail.com",
+      "password": "0000000",
+      "mobile": "+918807427264",
+      "workStatus": "fresher"
+    },
+    {
+      "id": "98c6",
+      "fullName": "deepak",
+      "email": "deepak@gmail.com",
+      "password": "12345678",
+      "mobile": "+918807427264",
+      "workStatus": "fresher"
+    },
+    {
+      "id": "9ded",
+      "fullName": "basa",
+      "email": "basa@gmail.com",
+      "password": "098765",
+      "mobile": "9897765786",
+      "workStatus": "fresher"
+    },
+    {
+      "id": "c3bb",
+      "fullName": "basa",
+      "email": "basa2244@gmail.com",
+      "password": "999999999999",
+      "mobile": "9732947293",
+      "workStatus": "fresher"
+    },
+    {
+      "id": "4bd4",
+      "fullName": "basa",
+      "email": "basa@gmail.com",
+      "password": "00000",
+      "mobile": "00000000000",
+      "workStatus": "experienced"
+    }
+  ]
+}

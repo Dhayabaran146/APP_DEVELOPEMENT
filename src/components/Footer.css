@@ -1,0 +1,128 @@
+.homepage-footer {
+    background-color: #f8f9fa;
+    padding: 100px;
+    text-align: center;
+    border-top: 1px solid #e7e7e7;
+  }
+  .homepage-footer ul li{
+color: crimson;
+  }
+  
+  .footer-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+  }
+  
+  .footer-links li {
+    display: inline;
+    margin: 0 15px;
+    color: black;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #0073b1;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-legal {
+    font-size: 14px;
+    color: #6c757d;
+  }
+  
+  .footer-legal p {
+    margin: 5px 0;
+  }
+  
+  .footer-legal a {
+    color: #0073b1;
+    text-decoration: none;
+  }
+  
+  .footer-legal a:hover {
+    text-decoration: underline;
+  }
+.homepage-footer {
+  background-color: #fffefe;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-links,
+.footer-legal,
+.footer-social {
+  margin: 10px 0;
+}
+
+.footer-links ul,
+.footer-legal p,
+.footer-social p {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-links a,
+.footer-legal a {
+  color: #ddd;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-links a :hover,
+.footer-legal a p:hover {
+  color: #1c0e0e;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-social p {
+  margin-right: 10px;
+  font-size: 1.2em;
+  margin-top: 50px;
+}
+
+.social-icon {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.social-icon img {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s;
+}
+
+.social-icon img:hover {
+  transform: scale(1.1);
+}
+.footer-links li{
+  font-weight: bold;
+  
+}
+.footer-social a {
+  margin-top: 30px;
+  padding: 10px;
+
+}
+.footer-social{
+  margin-right: 150px;
+}
+.footer-legal{
+  margin-bottom: 30px;
+}
+.FaTwitter{
+  width:1234px;
+}
+.footer-links li:hover{
+  color: blue;
+}
+  

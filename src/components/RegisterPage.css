@@ -1,0 +1,150 @@
+.register-container {
+    display: flex;
+    height: 105vh;
+    background-color: #f5f5f5;
+    padding:30px;
+  }
+  
+  .left-panel {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 60px;
+  }
+  
+  .left-panel .info {
+    max-width: 300px;
+    text-align: center;
+  }
+  /* RegisterPage.css */
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.register-container {
+  display: flex;
+  /* Other styles */
+}
+
+/* Add other styles as needed */
+
+  
+  .left-panel .info img {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .left-panel .info ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .left-panel .info ul li {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .right-panel{
+    flex: 2;
+    padding: 40px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .right-panel h1{
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .right-panel form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .right-panel form label {
+    margin-bottom: 10px;
+    font-size: 14px;
+    margin-right: 30px;
+  }
+  
+  .right-panel form input[type="text"],
+  .right-panel form input[type="email"],
+  .right-panel form input[type="password"],
+  .right-panel form input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .right-panel .work-status-options {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  .right-panel .work-status-options input {
+    margin-right: 10px;
+  }
+  
+  .right-panel .work-status-options label {
+    margin-right: 20px;
+  }
+  
+  .right-panel form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #0cf383;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .right-panel form button:hover {
+    background-color: #b7f4ce;
+  }
+  
+  .right-panel .social-login {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .right-panel .social-login p {
+    margin: 10px 0;
+  }
+  
+  .right-panel .google-login {
+    padding: 10px 20px;
+    background-color: #a59ff3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .right-panel .google-login:hover {
+    background-color: #c33d2d;
+  }
+  h2{
+    font-size:3rem;
+  }
+.work-status-options{
+    /* text-align: center; */
+    align-items: center;
+    justify-items: center;
+    margin-left: 250px;
+}
+.img{
+    height:50px;
+    
+}

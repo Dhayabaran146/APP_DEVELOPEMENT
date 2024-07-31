@@ -1,0 +1,120 @@
+/* ResultsPage.css */
+.results-page {
+    padding: 50px;
+    background-color: #f4f6f8;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.results-page h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.job-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: relative;
+    max-height: 200px; /* Default height to truncate content */
+    overflow: hidden;
+    transition: max-height 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.job-card:hover {
+    max-height: 600px; /* Expanded height to show full content on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+.job-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.job-title {
+    font-size: 1.8rem;
+    color: #333;
+    margin: 0;
+    font-weight: bold;
+}
+
+.company-name {
+    font-size: 1.2rem;
+    color: #333; /* Changed to a darker color for better visibility */
+    font-weight: bold; /* Make the company name bold */
+}
+
+.job-card-details {
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+.detail-title {
+    font-weight: bold;
+    color: #333;
+}
+
+.job-card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.job-tag {
+    background: #e0e0e0;
+    border-radius: 5px;
+    padding: 6px 12px;
+    font-size: 0.9rem;
+    color: #555;
+    white-space: nowrap;
+}
+
+.job-card-footer {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    text-align: right;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.results-page .job-card-footer p {
+    margin: 0;
+}
+
+/* Hide the description initially */
+.job-description {
+    display: none;
+}
+
+/* Show the description on hover */
+.job-card:hover .job-description {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .job-card-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .job-title {
+        font-size: 1.5rem;
+    }
+
+    .company-name {
+        font-size: 1rem;
+    }
+}
